@@ -1,0 +1,40 @@
+{
+    "accounts":[
+        {
+            "accountid": "001",
+            "accountholdername": "Cheryl Walsh",
+            "registeredpolicies": [{
+                "policyid": "mer20170202",
+                "policyname": "testpolicy2",
+                "premium": "1000",
+                "currency": "US Dollar"
+            },
+            {
+                "policyid": "mer20170203",
+                "policyname":"testpolicy3",
+                "premium": "800",
+                "currency": "US Dollar"
+            }
+            ],
+            "createdate": "02/27/2017"
+        },
+        {
+            "accountid": "002",
+            "accountholdername": "Carl Potts",
+            "registeredpolicies": [{
+                "policyid": "mer20170202",
+                "policyname": "testpolicy2",
+                "premium": "1000",
+                "currency": "US Dollar"
+            },
+            {
+                "policyid": "mer20170204",
+                "policyname":"testpolicy4",
+                "premium": "750",
+                "currency": "US Dollar"
+            }
+            ],
+            "createdate": "02/24/2017"
+        }
+    ]
+}

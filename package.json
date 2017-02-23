@@ -1,0 +1,19 @@
+{
+  "name": "chatbot_server",
+  "version": "1.0.0",
+  "description": "chatbot server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "botbuilder": "^3.6.0",
+    "dotenv-extended": "^1.0.4",
+    "request": "^2.79.0",
+    "restify": "^4.3.0",
+    "string-template": "^1.0.0"
+  }
+}

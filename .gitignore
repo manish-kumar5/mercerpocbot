@@ -1,0 +1,13 @@
+# node.js
+lib-cov
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+npm-debug.log
+node_modules
+coverage
+
+VERSION
