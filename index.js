@@ -35,10 +35,7 @@ var policyTemplate = compile(
 
 
 // Setup Restify Server 
-var server = restify.createServer({
-  name: 'myapp',
-  version: '1.0.0'
-}); 
+var server = restify.createServer(); 
 server.listen(process.env.port || process.env.PORT || 3978, function () { 
 console.log('%s listening to %s', server.name, server.url); 
 }); 
@@ -46,8 +43,8 @@ console.log('%s listening to %s', server.name, server.url);
 
 // Create chat bot 
 var connector = new builder.ChatConnector({ 
-    appId: process.env.MICROSOFT_APP_ID, 
-    appPassword: process.env.MICROSOFT_APP_PASSWORD
+    appId: 'da3e0d65-87ce-4da4-b1cc-52e7cc8afa37', 
+    appPassword: 'zBjPNi5W45gjuVAFKpcJ7jH'
 }); 
 
 var bot = new builder.UniversalBot(connector); 
