@@ -39,7 +39,7 @@ var server = restify.createServer({
   name: 'myapp',
   version: '1.0.0'
 }); 
-server.listen(process.env.port || process.env.PORT || 80, function () { 
+server.listen(process.env.port || process.env.PORT || 3978, function () { 
 console.log('%s listening to %s', server.name, server.url); 
 }); 
 
