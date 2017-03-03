@@ -1,19 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+	<head>
+		<!-- CHARACTER SET -->
+		<meta charset="utf-8">
+		<!-- ALWAYS FORCE LATEST IE RENDERING ENGINE (EVEN IN INTRANET) - REMOVE THIS IF YOU USE THE .HTACCESS -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- TITLE AND PAGE META DATA -->
+		<title>Mercer Account Center</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="http://fancyapps.com/fancybox/source/jquery.fancybox.css" />
+		<script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://fancyapps.com/fancybox/source/jquery.fancybox.js"></script>
+		<script>
+			$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        nextEffect  : 'none',
+        prevEffect  : 'none',
+        padding     : 0,
+        margin      : [20, 60, 20, 60] // Increase left/right margin
+    });
+		</script>
+		<style type="text/css">
+			.fancybox-type-iframe .fancybox-nav {
+    width: 60px;       
+}
 
-<html>
-<Title>Web Chat </Title>
+.fancybox-type-iframe .fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
 
-<head>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/sample.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+.fancybox-type-iframe .fancybox-nav:hover span {
+    opacity: 1;
+}
 
-    
-</head>
+.fancybox-type-iframe .fancybox-next {
+    right: -60px;
+}
 
-
-
-
-<body class="osLogin">
+.fancybox-type-iframe .fancybox-prev {
+    left: -60px;
+}
+		</style>
+	</head>
+	<body class="osLogin">
     <div>
         <header class="osHeader">
             <nav class="topNav fixed">
@@ -27,21 +62,33 @@
 
         <div class="osContentSection">
             <div class="osContentDetails">
-                <div>
-                    <iframe style="height:480px; width:600px" src='https://webchat.botframework.com/embed/mercerpocbot?s=8hh7dOS40GM.cwA.apU.ZV2Ojab_FyXpIDkVzQ-kWFD0WRNOaPeiAoeOM3PrQ2U'></iframe>
-                </div>
-			</div>
-		</div>
+				<div class="osChatBoxDetails">
+					<ul class="osList">
+						<li>Talk to Bot <a class="fancybox fancybox.iframe" href="https://webchat.botframework.com/embed/mercerpocbot?s=8hh7dOS40GM.cwA.apU.ZV2Ojab_FyXpIDkVzQ-kWFD0WRNOaPeiAoeOM3PrQ2U"><img alt="" title="" src="images/logo_chat.png"/></a></li>
+						<li>Test Link <img alt="" title="" src="images/logo_chat.png"/></li>
+					</ul>
+					<!-- <button type="button" class="btn btn-info fancybox fancybox.iframe" href="https://webchat.botframework.com/embed/mercerpocbot?s=8hh7dOS40GM.cwA.apU.ZV2Ojab_FyXpIDkVzQ-kWFD0WRNOaPeiAoeOM3PrQ2U"> -->
+						 <!-- <span class="glyphicon glyphicon-ok"></span>Click to Chat -->
+					<!-- </button> -->
+					<!-- <a class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1&wmode=opaque">Video #1</a> -->
+				</div>
+                <!-- <div> -->
+                    <!-- <iframe style="height:480px; width:600px" src='https://webchat.botframework.com/embed/mercerpocbot?s=8hh7dOS40GM.cwA.apU.ZV2Ojab_FyXpIDkVzQ-kWFD0WRNOaPeiAoeOM3PrQ2U'></iframe> -->
+                <!-- </div> -->
+                                                </div>
+                                </div>
         <footer class="osFooter">
             <div class="osFooterBckgrd"></div>
             <div class="osFooterContent">
                 <div class="osFooterLogo">
-                    <img src="../images/mercer_login_footer_logo.png" alt="Mercer" />
+                    <img src="images/mercer_login_footer_logo.png" alt="Mercer" />
                 </div>
                 <div class="osFooterCopyright">
                     <p>© 2016 Mercer LLC, All Rights Reserved</p>
                 </div>
             </div>
         </footer>
-	</div>
+                </div>
 </body>
+
+</html>
